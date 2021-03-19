@@ -10,11 +10,11 @@ Scripts I developed for automating install, request and renew of ssl certificate
     - Remove the scheduled task certbot installs and creates a new one that runs twice a day.
 
 **func_certbotRenew4iis.ps1**
-  > renew and replace certs for Microsoft IIS<br>
+  > Renew and replace certs for Microsoft IIS<br>
     - DEPENDENCY: openSSL for Windows and certbot (obviously) <br>
 
 **func_Get-CertbotCertificate4IIS.ps1**
-  > function for requesting certificates using certbot with ACME
+  > Function for requesting certificates using certbot with ACME
     - has a preReq check for IIS being installed.<br>
     - DEPENDENCY: openSSL for Windows and certbot (obviously) <br>
     - Will prompt for tcp port to create\replace ssl bind on if -sslport not provided<br>
