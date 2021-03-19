@@ -7,7 +7,7 @@ Scripts I developed for automating install, request and renew of ssl certificate
     - It will install certbot vanilla <br>
     - Create a local service account with a randomly generated password<br>
     - Add service account to local administrator group because it needs it for certbot renew<br>
-    - Remove the scheduled task certbot installs and creates a new one that runs twice a day.
+    - Removes scheduled tasks installed by certbot, creates new scheduled task that run twice daily(12AM/12PM).
 
 **func_certbotRenew4iis.ps1**
   > Renew and replace certs for Microsoft IIS<br>
