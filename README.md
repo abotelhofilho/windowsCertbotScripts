@@ -1,5 +1,5 @@
 # windowsCertbotScripts
-Scripts I developed for automating install, request and renew of ssl certificates using certbot
+Scripts I developed for automating install, request and renew of ssl certificates using certbot for Microsoft IIS web server
 
 
 **certbotInstall.ps1**
