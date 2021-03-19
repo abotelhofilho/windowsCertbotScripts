@@ -3,7 +3,7 @@ Scripts I developed for automating install, request and renew of ssl certificate
 
 
 **certbotInstall.ps1**
-  > Script for deploying certbot from SCCM.
+  > Script for deploying certbot from SCCM.<br>
     - It will install certbot vanilla <br>
     - Create a local service account with a randomly generated password<br>
     - Add service account to local administrator group because it needs it for certbot renew<br>
@@ -14,7 +14,7 @@ Scripts I developed for automating install, request and renew of ssl certificate
     - DEPENDENCY: openSSL for Windows and certbot (obviously) <br>
 
 **func_Get-CertbotCertificate4IIS.ps1**
-  > Function for requesting certificates using certbot with ACME
+  > Function for requesting certificates using certbot with ACME<br>
     - has a preReq check for IIS being installed.<br>
     - DEPENDENCY: openSSL for Windows and certbot (obviously) <br>
     - Will prompt for tcp port to create\replace ssl bind on if -sslport not provided<br>
